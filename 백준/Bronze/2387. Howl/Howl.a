@@ -1,0 +1,11 @@
+printf(($gl$, "                     .")),
+printf(($gl$, "                    / V\")),
+printf(($gl$, "                  / `  /")),
+printf(($gl$, "                 <<   |")),
+printf(($gl$, "                 /    |")),
+printf(($gl$, "               /      |")),
+printf(($gl$, "             /        |")),
+printf(($gl$, "           /    \  \ /")),
+printf(($gl$, "          (      ) | |")),
+printf(($gl$, "  ________|   _/_  | |")),
+printf(($gl$, "<__________\______)\__)"))
