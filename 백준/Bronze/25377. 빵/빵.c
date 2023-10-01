@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main(){
-	int n,max=0;
+	int n,min=1001;
 	scanf("%d",&n);
 	for (int i=1;i<=n;i++){
 		int t,bt;
 		scanf("%d %d",&t,&bt);
-		if (bt>=t && max<bt) max=bt; 
+		if (bt>=t && min>bt) min=bt; 
 	}
-	if (max!=0) printf("%d",max);
+	if (min!=1001) printf("%d",min);
 	else printf("-1");
 	return 0;
 }
