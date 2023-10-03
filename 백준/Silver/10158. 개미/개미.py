@@ -1,0 +1,6 @@
+w, h = map(int, input().split())
+p, q = map(int, input().split())
+t = int(input())
+x,y=(p+t)%(2*w),(q+t)%(2*h)
+x,y=min(x,2*w-x),min(y,2*h-y)
+print(x, y)
