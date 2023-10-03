@@ -3,10 +3,10 @@ int main(){
 	int n,m=0,s=1;
 	scanf("%d",&n);
 	for (int i=1;i<=n;i++){
-		float a,b,c;
-		scanf("%f %f %f",&a,&b,&c);
+		double a,b,c;
+		scanf("%lf %lf %lf",&a,&b,&c);
 		m+=c;
-		s*=b/a;
+		s=(s/a)*b;
 	}
 	printf("%d %d",m%2,s);
 	return 0;
