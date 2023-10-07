@@ -1,2 +1,5 @@
 A,B,C = map(int,input().split())
-print(A*B/C)
+if C==1:
+    print(A*B)
+else :
+    print(A*B/C)
