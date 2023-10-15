@@ -10,6 +10,10 @@
 
 구현
 
+### 제출 일자
+
+2023년 10월 16일 02:15:10
+
 ### 문제 설명
 
 <p>양말 <mjx-container class="MathJax" jax="CHTML" style="font-size: 99.9%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mn class="mjx-n"><mjx-c class="mjx-c35"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>5</mn></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$5$</span></mjx-container>개가 주어집니다. 각 양말에는 숫자가 하나씩 쓰여있습니다. 같은 숫자가 쓰인 양말 두 개를 모으면 양말 한 쌍이 됩니다.</p>
