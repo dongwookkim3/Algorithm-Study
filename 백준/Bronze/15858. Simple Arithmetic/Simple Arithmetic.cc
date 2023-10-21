@@ -2,9 +2,9 @@
 using namespace std;
 int main(){
 	cout << fixed;
-	cout.precision(6);
-	long a,b,c;
+	cout.precision(7);
+	long long a,b,c;
 	cin >> a >> b >> c;
-	cout << (double)a*b/c;
+	cout << (long double)a*b/c;
 	return 0;
 }
