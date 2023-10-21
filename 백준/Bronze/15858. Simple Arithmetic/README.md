@@ -10,6 +10,10 @@
 
 임의 정밀도 / 큰 수 연산, 사칙연산, 수학
 
+### 제출 일자
+
+2023년 10월 21일 20:29:30
+
 ### 문제 설명
 
 <p>You are given three integers a, b, c (1 ≤ a, b, c ≤ 10<sup>9</sup>). Compute a⋅b/c, with an absolute precision of 10<sup>−6</sup>.</p>

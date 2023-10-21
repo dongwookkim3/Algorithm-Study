@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-	long long int A,B,C;
-	cin >> A >> B >> C;
 	cout << fixed;
 	cout.precision(6);
-	cout << A*B/C;
+	long a,b,c;
+	cin >> a >> b >> c;
+	cout << (double)a*b/c;
 	return 0;
 }
