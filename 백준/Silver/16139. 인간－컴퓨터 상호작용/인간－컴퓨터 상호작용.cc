@@ -1,12 +1,10 @@
 #include <iostream>
 using namespace std;
 int main(){
-	/*
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
-	*/
-	int A[27][2001]={};
+	int A[27][200001]={};
 	string s;
 	getline(cin,s);
 	for (int i=0;i<s.length();i++){
