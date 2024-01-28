@@ -4,9 +4,9 @@
 #define MAX 100000
 using namespace std;
 int main(){
-    priority_queue<int,vector<int>,greater<int>> B;
+    priority_queue<long long,vector<long long>,greater<long long>> B;
     long long n,m=0;
-    int A[MAX+1]={};
+    long long A[MAX+1]={};
     cin >> n;
     for (int i=1;i<n;i++){
         cin >> A[i];
