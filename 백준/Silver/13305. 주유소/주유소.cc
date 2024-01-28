@@ -5,8 +5,8 @@
 using namespace std;
 int main(){
     priority_queue<int,vector<int>,greater<int>> B;
-    int n,m=0;
-    int A[MAX]={};
+    long long n,m=0;
+    int A[MAX+1]={};
     cin >> n;
     for (int i=1;i<n;i++){
         cin >> A[i];
