@@ -21,7 +21,6 @@ int main(){
     cin.tie(NULL);
     cout.tie(NULL);
     unsigned long long n,m=0;
-    unsigned long long B[3]={2,7,61};
     cin >> n;
     for(int i=1;i<=n;i++){
         unsigned long long A;
