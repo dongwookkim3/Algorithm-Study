@@ -1,15 +1,21 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 int main(){
-	int n,m,p,c=0,a;
-	scanf("%d %d %d",&n,&m,&p);
-	for (int i=1;i<=n;i++){
-		int b=0;
-		for (int j=1;j<=m;j++){
-			scanf("%d",&a);
-			if (a==1) b++;
-		}
-		if (b>=p) c++;
-	}
-	printf("%d",c);
-	return 0;
+    int n,k,p,t=0;
+    cin >> n >> k >> p;
+    while(n--){
+        int s=0;
+        for (int i=1;i<=k;i++){
+            int c;
+            cin >> c;
+            if (c==0){
+                s++;
+            }
+        }
+        if (s<p){
+            t++;
+        }
+    }
+    cout << t;
+    return 0;
 }
