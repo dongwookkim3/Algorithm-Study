@@ -11,4 +11,5 @@ int main(){
         cin >> a >> b;
         cout << (A[a]+B[b])*10000 << "\n";
     }
+    return 0;
 }
