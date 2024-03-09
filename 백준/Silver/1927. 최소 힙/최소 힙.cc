@@ -6,23 +6,22 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    priority_queue<long long,vector<long long>,greater<long long>> pq;
+    priority_queue<int,vector<int>,greater<int>> A;
     int n;
     cin >> n;
     while(n--){
-        long long a;
+        int a;
         cin >> a;
         if (a==0){
-            if (pq.size()){
-                cout << pq.top() << "\n";
-                pq.pop();
-            }
-            else {
+            if (A.empty()){
                 cout << "0\n";
+                continue;
             }
+            cout << A.top() << "\n";
+            A.pop();
         }
         else {
-            pq.push(a);
+            A.push(a);
         }
     }
     return 0;
