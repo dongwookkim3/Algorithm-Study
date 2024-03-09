@@ -1,28 +1,26 @@
 #include <iostream>
 #include <queue>
-#include <vector>
 using namespace std;
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    priority_queue<long long> pq;
+    priority_queue<long long> A;
     int n;
     cin >> n;
     while(n--){
         long long a;
         cin >> a;
         if (a==0){
-            if (pq.size()){
-                cout << pq.top() << "\n";
-                pq.pop();
-            }
-            else {
+            if (A.empty()){
                 cout << "0\n";
+                continue;
             }
+            cout << A.top() << "\n";
+            A.pop();
         }
         else {
-            pq.push(a);
+            A.push(a);
         }
     }
     return 0;
