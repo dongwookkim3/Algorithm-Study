@@ -11,7 +11,7 @@ int main(){
     }
     sort(A.begin(),A.end());
     while(A.size()>=3){
-        if (find(A.begin(),A.end(),A.front()+3)!=A.end() && find(A.begin(),A.end(),A.front()+6)!=A.end()){
+        if (binary_search(A.begin(),A.end(),A.front()+3) && binary_search(A.begin(),A.end(),A.front()+6)){
             cout << "Yes";
             return 0;
         }
