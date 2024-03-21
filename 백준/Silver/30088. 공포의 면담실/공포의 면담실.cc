@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 int main(){
-    int t,s=0;
+    long long t,s=0;
     cin >> t;
     vector<int> A(t);
     while(t--){
